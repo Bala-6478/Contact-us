@@ -1,5 +1,5 @@
 // Initialize EmailJS
-emailjs.init("I7vgSe0Ewz4PAcOrS"); // Replace with your EmailJS public key
+emailjs.init("gqThB2s5Voh3cS5wA"); // Replace with your EmailJS public key
 
 // Theme Toggle Logic
 const toggleBtn = document.getElementById("toggleTheme");
@@ -54,7 +54,7 @@ const form = document.getElementById("contactForm");
 form.addEventListener("submit", function (e) {
   e.preventDefault();
 
-  emailjs.sendForm("service_atbbdfm", "template_rszrquf", this)
+  emailjs.sendForm("service_dtquy6q", "template_cok8qo9", this)
     .then(() => {
       showToast("✅ Message sent successfully!");
       form.reset();
